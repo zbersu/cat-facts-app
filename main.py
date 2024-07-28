@@ -1,4 +1,4 @@
-import json
+import requests
 import sqlite3
 import streamlit as st
 import base64
@@ -82,15 +82,16 @@ def create_database():
     return conn
 
 def fetch_cat_facts():
-    """Fetch cat facts from JSON file"""
+    """Fetch cat facts from the API"""
     try:
-        with open('cat_facts.json', 'r') as file:
-            return json.load(file)
-    except FileNotFoundError:
-        st.error("Error: cat_facts.json file not found.")
-        return None
-    except json.JSONDecodeError:
-        st.error("Error: Invalid JSON in cat_facts.json file.")
+        response = requests.get('https://cat-fact.herokuapp.com/facts')
+        if response.status_code == 200:
+            return response.json()
+        else:
+            st.error(f"Error: Unable to fetch facts. Status code: {response.status_code}")
+            return None
+    except requests.RequestException as e:
+        st.error(f"Error: Unable to connect to the server. {str(e)}")
         return None
 
 def save_facts_to_db(conn, facts):
@@ -143,6 +144,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 # Add a fun cat gif at the bottom
 st.markdown("![Cat GIF](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)")
