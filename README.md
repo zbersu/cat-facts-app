@@ -18,13 +18,13 @@
 - Python 3.x
 - Required Python packages (listed in `requirements.txt`)
 - Streamlit
+- requests
 ## Installation
 
 1. **Clone the Repository**
 
     ```bash
     git clone https://github.com/zbersu/cat-facts-app.git
-    cd cat-facts-app
     ```
 
 2. **Install Dependencies**
@@ -33,10 +33,24 @@
     pip install -r requirements.txt
     ```
 
-3. **Ensure JSON File and the Background Image is Present**
+3. **Navigate to the Project Directory**
+    ```bash
+    cd path/to/cat-facts-app
+    ```
+   
+4. **Activate the virtual environment**
+- On Windows:
+  ```
+  .cat_app_venv\Scripts\activate
+  ```
+- On macOS and Linux:
+  ```
+  source .cat_app_venv/bin/activate
+  ```
+
+5. **Ensure the Background Image is Present**
 
    Ensure you have the following files in your project directory:
-- `cat_facts.json`: A JSON file containing cat facts
 - `cat_background.jpg`: The background image for the app:
 
 ## Running the App
@@ -46,12 +60,22 @@ To run the Streamlit application, execute the following command in your terminal
 ```bash
 streamlit run main.py
 ```
-
 The app will be opened in your web browser
+
+To stop the app, press `Ctrl+C` in the terminal where it's running.
 
 ## Customization
 - To change the background image, replace `cat_background.jpg` with your desired image.
 - Adjust the custom CSS in the app to modify colors, fonts, or layout.
+
+## Troubleshooting
+- If you encounter any issues with missing modules, ensure you've activated the virtual environment and installed all dependencies.
+- If the background image doesn't appear, check that `cat_background.jpg` is in the correct location.
+- For any other issues, please check the Streamlit documentation or open an issue in the project repository.
+
+## Contributing
+Contributions to Pawsome Facts are welcome! Please feel free to submit a Pull Request.
+
 
 ## Acknowledgements
 - Cat facts sourced from https://cat-fact.herokuapp.com/facts
