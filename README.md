@@ -2,14 +2,14 @@
 
 ## Overview
 
-**Pawsome Facts** is a Streamlit web application that presents interesting and fun facts about cats. The app uses a SQLite database to store and retrieve cat facts, which are initially loaded from a JSON file. The application features a visually appealing interface with a custom background image, unique fonts, and styled elements to enhance the user experience.
+**Pawsome Facts** is a Streamlit web application that presents interesting and fun facts about cats. The app fetches cat facts from an external API and stores them in a SQLite database for retrieval. The application features a visually appealing interface with a custom background image, unique fonts, and styled elements to enhance the user experience.
 
 ## Features
 
 - **Custom Background Image**: Adds a background image to the app from a local file.
 - **Styled Interface**: Uses custom CSS to style the title, expanders, and fact text.
 - **SQLite Database**: Stores cat facts in a SQLite database for persistent storage.
-- **JSON Data Source**: Loads cat facts from a JSON file.
+- **API Integration**: Fetches cat facts from an external API.
 - **Expandable Fact Sections**: Displays cat facts in expandable sections with creative titles.
 
 
