@@ -1,0 +1,28 @@
+ofis 2
+https://codeshare.io/VNKMK9
+
+I am a Senior .NET Developer with over seven years of experience developing and delivering high-quality software solutions. I have worked with various industries and technologies, specialising in SaaS applications, productivity tools, CRM and E-commerce applications. As a Chief Technology Officer, I am responsible for the technical direction and success of the company and for mentoring the development team. In addition to my professional experience, I am a mentor and trainer who enjoys sharing my knowledge and experience through online training, courses and workshops.
+
+I have a proven track record of delivering projects on time and under budget while maintaining the highest quality standards. My strong technical background and excellent problem-solving skills allow me to identify and resolve issues arising during development quickly. I am highly motivated and eager to learn and stay up-to-date on the latest technologies. When I'm not working, you can find me spending time with my family, reading books, and investing in cryptocurrencies and stocks.
+
+Specialities
+
+System Design, Multi-Tenant Architecture, Enterprise Architecture, Event Driven Development, Domain-Driven-Design Principles
+
+Backend: C#, ASP.NET Core, .NET Core, LINQ, Entity Framework Core, Relational Databases, MSSQL, PostgreSQL, NoSQL, MongoDB, SignalR, RabbitMQ, gRPC, Python for AI (Beginner Level)
+
+Frontend: HTML, CSS, Bootstrap, JavaScript, Typescript, React, jQuery, WPF, Xamarin, MAUI, XAML, Blazor, Telerik, Radzen, Syncfusion
+
+Development Tools: Docker, Git, GitHub
+
+Cloud: AWS and GCP
+
+---
+
+I am heading the Machine Learning and Data Analytics Lab of the FAU. Currently, this lab has about 50 co-workers in the fields of machine learning and signal analysis for wearable computing systems with a focus on sports and health care.
+I studied Electrical Engineering at the Friedrich-Alexander University (FAU) Erlangen-Nuernberg (Germany). I did my PhD in Biomechanics in 2010 at the University of Calgary (“Application of Pattern Recognition Methods in Biomechanics”). In 2011, I became assistant professor for Computer Science in Sports (an endowed professorship of the adidas AG). In 2017, I became full professor for 'Digital Support Systems in Sports and Health' within the Heisenberg-program of the German Research Foundation (DFG).
+I authored more than 300 peer-reviewed articles, submitted 8 patent applications, and started three spinoff startup companies. Me and my team also won several medical-technical research awards.
+In 2016, I was a visiting professor in Dr. Paolo Bonato’s Motion Analysis Lab at Harvard Medical School. In 2018, I was a visiting professor in Sandy Pentland's Human Dynamic Lab at MIT.
+I am the representative of the FAU’s Central Institute for Medical Engineering, and closely connected to our Medical Valley and European Institute of Innovation & Technology for Health activities.
+My current research interests are applied machine learning, data science, signal processing, simulation, human-computer-interaction, and sensor integration methods for wearable computing systems in human-centered studies with a focus on wellness, sports, and health care.
+The purpose and motivation of my research is generating a positive impact on human wellbeing, be it through increasing performance, maintaining health, reducing injuries, improving rehabilitation, or monitoring disease.

@@ -1,0 +1,17 @@
+ALPER TUNGA LIVE CODING 5
+right click - inspect
+
+Data kazıma için 2 seçenek:
+1) bot yazıp programla diyoruz
+2) fake istek yapıyoruz
+
+<h2-class = 'entry title'> <-- bu, başlıklara karşılık geliyor
+
+taplio -- yapay zekayla veri kazımayı birleştirmişler
+supergrow.ai -- yine veri kazımayla yapılmış. aylık 2 milyon kazanıyorlar
+
+google da veri kazıyor
+
+hem data'yla uğraşıyorsunuz hem de datayı siz getiriyorsunuz
+
+element dediği şeyler h1,h2ler
